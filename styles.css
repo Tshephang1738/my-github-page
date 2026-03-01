@@ -1,16 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    color: #1a1c1c;
+    background-image: url(Anime\ Football.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ffff00;
+    color: rgb(18, 17, 15);
     padding: 20px;
-    text-align: center;
+    text-align:left;
 }
 
 header h1 {
@@ -18,9 +19,10 @@ header h1 {
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
+    color: rgb(10, 237, 71);
+    text-decoration: rgb(7, 233, 48);
     margin: 0 10px;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -37,11 +39,12 @@ main img {
     height: auto;
     display: block;
     margin: 20px 0;
+    
 }
 footer {
     background-color: #333;
-    color: white;
-    text-align: center;
+    color: rgb(15, 5, 5);
+    text-align: right;
     padding: 10px;
     position: fixed;
     bottom: 0;
@@ -61,10 +64,13 @@ a:hover {
     text-decoration: underline;
 }
 img {
-    border: 5px solid #4CAF50;
-    border-radius: 10px;
+
+border: 5px solid #4CAF50;
+
+border-radius: 10px;
+
 }
 main a[href^="mailto:"] {
-    color: #ff5722;
+    color: #ffe222;
     font-weight: bold;
 }
