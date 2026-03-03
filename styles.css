@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    color: #1a1c1c;
+    color: #08e722;
     background-image: url(Anime\ Football.jpg);
     background-size: cover;
     background-position: center;
@@ -73,4 +73,8 @@ border-radius: 10px;
 main a[href^="mailto:"] {
     color: #ffe222;
     font-weight: bold;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
